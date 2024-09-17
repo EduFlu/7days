@@ -1,0 +1,36 @@
+@import url(body);
+
+.container__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5em 0 2em 0;
+    font-family: var(--primary-font);
+}
+
+.text-title {
+    font-size: 50px;
+    margin-bottom: 48px;
+}
+
+.search {
+    padding: 1em;
+    width: 45%;
+    height: 60px;
+    opacity: 30%;
+    border-radius: 8px;
+    background-color: var(--description-color);
+    margin-bottom: 1.5em;
+    font-size: 18px;
+    font-weight:500;
+}
+
+.search::placeholder {
+    color: var(--text-color);
+}
+
+.text {
+    font-size: 20px;
+}
+

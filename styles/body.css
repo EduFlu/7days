@@ -1,0 +1,13 @@
+:root {
+    --primary-color: #17162E;
+    --secundary-color: #1D1C3B;
+    --text-color: #FFFFFF;
+    --text-color-2: #8A8A8A;
+    --description-color: #ACACAC;
+    --primary-font: "Kumbh Sans", system-ui;
+}
+
+body {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}

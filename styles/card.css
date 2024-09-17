@@ -1,0 +1,65 @@
+@import url(body);
+
+.container__card {
+  border-radius: 32px;
+  background-color: var(--secundary-color);
+  margin: 4em 5em 2em 5em;
+  font-family: var(--primary-font);
+  font-size: 20px;
+  box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.card,
+.movie-card,
+.favorite-card,
+.favorite {
+  display: flex;
+}
+
+.card {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-img {
+  position: relative;
+  top: 30px;
+  left: 46px;
+}
+
+.card-img img {
+  width: 250px;
+}
+
+.card-link {
+  text-decoration: none;
+  color: var(--text-color);
+  width: 300px;
+}
+
+.movie-card {
+  flex-direction: column;
+  margin: 0 50px 0 50px;
+  gap: 2em;
+}
+
+.paragraph-card {
+  margin: 0 3em 0 5em;
+  line-height: 31px;
+}
+
+.favorite-card {
+  gap: 2em;
+}
+
+.favorite {
+  gap: 10px;
+  align-items: center;
+}
+
+.btn-favorite {
+  background: none;
+  color: red;
+  border: none;
+  font-size: 18px;
+}
